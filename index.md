@@ -8,9 +8,8 @@
 
 Our group explored common environmental pollutants to find possible links between them and the total nitrate in the atmosphere. Among the pollutants, we found that ammonium and sulfate were associated with the strongest positive correlation to nitrate levels. Our project was awarded "Best Insights" for our in-depth exploratory data analysis and crisp presentation.
 
-<img src="images/nitrate_img2.png?raw=true"/>
+<img src="images/nitrate_img3.png?raw=true"/>
 
-<img src="images/nitrate_img.png?raw=true"/>
 
 **Improvements:** Given more time, we would have looked into measuring and improving our model accuracy, along with any other algorithms. Ideally, we would also search for factors that correlate with nitrate levels which we can control (ex. number of park visitors).
 
