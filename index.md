@@ -19,10 +19,9 @@ Our group explored common environmental pollutants to find possible links betwee
 
 ***Team:*** Ali Khan, Sasha Prokhorova, Marquise Piton, Marianna Carini
 
-For our full slide deck see [Predicting Total Nitrate (NO3) in the Atmosphere Slides](https://github.com/m-carini/m-carini.github.io/raw/main/projects/DSGO%20Hackathon.pdf).
 
-[![Open Code](https://img.shields.io/badge/Jupyter-Open_Code-red?logo=Jupyter)](projects/nitrate_pred.html)
-[![Open Slides](https://img.shields.io/badge/GitHub-View_Slides-red?logo=GitHub)](docs/DSGO%20Hackathon.pdf)
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Code-red?logo=Jupyter)](projects/nitrate_pred)
+[![Open Slides](https://img.shields.io/badge/GitHub-View_Slides-red?logo=GitHub)](docs/nitrate_pred_slides.pdf)
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
