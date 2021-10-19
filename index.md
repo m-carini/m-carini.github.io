@@ -20,7 +20,7 @@ Our group explored common environmental pollutants to find possible links betwee
 ***Team:*** Ali Khan, Sasha Prokhorova, Marquise Piton, Marianna Carini
 
 
-[![Open Code](https://img.shields.io/badge/Jupyter-Open_Code-red?logo=Jupyter)](projects/nitrate_pred)
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](projects/nitrate_pred)
 [![Open Slides](https://img.shields.io/badge/GitHub-View_Slides-red?logo=GitHub)](docs/nitrate_pred_slides.pdf)
 
 ---
