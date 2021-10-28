@@ -20,8 +20,9 @@ From our analysis, we recommended sending the vaccines first to the high impact 
 ***Team:*** Eric Chen, Allen Lee, Hyoungmin (Stella) Lee, Smitha Kannanaikkal, Marianna Carini
 
 
-[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](projects/nitrate_pred)
-[![Open Slides](https://img.shields.io/badge/GitHub-View_Slides-red?logo=GitHub)](docs/nitrate_pred_slides.pdf)
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/COVID_Nursing_Home/)
+[![Open Slides](https://img.shields.io/badge/GitHub-View_Slides-red?logo=GitHub)](docs/COVID_Nursing_Home.pdf)
+[![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=Microsoft)](docs/COVID_Nursing_Home_Report.pdf)
 
 ---
 
