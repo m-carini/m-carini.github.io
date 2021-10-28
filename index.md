@@ -20,7 +20,7 @@ We built models using Naive Bayes, Decision Tree, and Random Forest algorithms. 
 ***Team:*** Eric Chen, Allen Lee, Hyoungmin (Stella) Lee, Smitha Kannanaikkal, Marianna Carini
 
 
-[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/COVID_Nursing_Home/)
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/H1N1_pred/)
 [![Open Slides](https://img.shields.io/badge/GitHub-View_Slides-red?logo=GitHub)](docs/H1N1_Pred_Presentation.png)
 [![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=Microsoft)](docs/H1N1_Pred_Report.pdf)
 
