@@ -2,6 +2,29 @@
 
 ---
 
+#### Predicting Total Nitrate (NO3) in the Atmosphere
+
+**Project overview:** At the time of this project, the Pfizer and BioNTech vaccines were recently approved for distribution. Our team wanted to study the H1N1 vaccine data to ultimately gain insight into the demand for COVID-19 vaccines. Our dataset was provided by the National Center for Immunization and Respiratory Disease as a apart of a DrivenData competition. The data detailed patient demographics, behaviors, opinions, health stats, and whether or not they received the vaccine. 
+
+We built models using Naive Bayes, Decision Tree, and Random Forest algorithms. We created multiple variations of each using forward feature selection and oversampling, due to a classs imbalance in our outcome variable (80% did not receive a vaccine). We balanced the cost of manufacturing a vaccine that went unused versus the cost of a customer not receiving a vaccine. Because of our class imbalance, F1-score would be our measure of success over accuracy. Ultimately, the Naive Bayes model with oversampling and foward selection performed the best. Our other models experienced overfitting and/or low scores. 
+
+<img src="images/nitrate_img3.png?raw=true"/>
+
+
+**Improvements:** If/when the NCIRD collects similar data for COVID-19, it would be interesting to study the similarities and differences in the H1N1 data. We would expect to see differences due to government mandates, but seeing the effect.
+
+***Technical skills:*** Naïve-Bayes, Decision Tree, Random Forest
+
+***Tools:*** WEKA, Python
+
+***Team:*** Eric Chen, Allen Lee, Hyoungmin (Stella) Lee, Smitha Kannanaikkal, Marianna Carini
+
+
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](projects/nitrate_pred/)
+[![Open Slides](https://img.shields.io/badge/GitHub-View_Slides-red?logo=GitHub)](docs/nitrate_pred_slides.pdf)
+
+---
+
 #### Nursing Home COVID-19 Risk Assessment
 
 **Project overview:** On the heels of the COVID-19 vaccine approvals for Pfizer and BioNTech, our team utilized our machine learning technics to protect the populations hardest hit by outbreaks, senior living facilities. We wanted to understand driving factors of COVID mortality and how best to distribute vaccines to senior citizens. We combined nursing home staff stats, nursing home supply stats, county census stats, and county COVID policy data to find trends with COVID mortality rates. Our group turned to k-means clustering to group like senior living facilities based on the mortality rates of COVID-19 at the time of analysis. Our clustering analysis came out with three distinct groups, deemed high, medium, and low impact. 
