@@ -10,7 +10,8 @@ We observed that the medium impact group experienced the highest amount of staff
 
 From our analysis, we recommended sending the vaccines first to the high impact cluster because of their high mortality rates and high at-risk population. Next would be the medium impact cluster due to their shortage of supplies. Lastly would be the low impact cluster because of their low mortality rate. Once a plan was developed, communicating that plan would be key to avoiding the same issues we saw with the H1N1 vaccine distribution.
 
-<img src="images/covid_nursing_home_img.mov?raw=true"/>
+<img src="images/covid_nursing_home_img2.png?raw=true"/>
+<img src="images/covid_nursing_home_img3.png?raw=true"/>
 
 ***Technical skills:*** K-Means Clustering, API
 
