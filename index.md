@@ -8,7 +8,7 @@
 
 We built models using Naive Bayes, Decision Tree, and Random Forest algorithms. We created multiple variations of each using forward feature selection and oversampling, due to a classs imbalance in our outcome variable (80% did not receive a vaccine). We balanced the cost of manufacturing a vaccine that went unused versus the cost of a customer not receiving a vaccine. Because of our class imbalance, F1-score would be our measure of success over accuracy. Ultimately, the Naive Bayes model with oversampling and foward selection performed the best. Our other models experienced overfitting and/or low scores. 
 
-<img src="images/nitrate_img3.png?raw=true"/>
+<img src="images/h1n1_img.png?raw=true"/>
 
 
 **Improvements:** If/when the NCIRD collects similar data for COVID-19, it would be interesting to study the similarities and differences in the H1N1 data. We would expect to see differences due to government mandates, but seeing the effect.
@@ -20,8 +20,9 @@ We built models using Naive Bayes, Decision Tree, and Random Forest algorithms. 
 ***Team:*** Eric Chen, Allen Lee, Hyoungmin (Stella) Lee, Smitha Kannanaikkal, Marianna Carini
 
 
-[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](projects/nitrate_pred/)
-[![Open Slides](https://img.shields.io/badge/GitHub-View_Slides-red?logo=GitHub)](docs/nitrate_pred_slides.pdf)
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/COVID_Nursing_Home/)
+[![Open Slides](https://img.shields.io/badge/GitHub-View_Slides-red?logo=GitHub)](docs/H1N1_Pred_Presentation.png)
+[![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=Microsoft)](docs/H1N1_Pred_Report.pdf)
 
 ---
 
