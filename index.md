@@ -2,27 +2,26 @@
 
 ---
 
-#### Predicting Total Nitrate (NO3) in the Atmosphere
+#### Spotify Network Analysis
 
-**Project overview:** At the time of this project, the Pfizer and BioNTech vaccines were recently approved for distribution. Our team wanted to study the H1N1 vaccine data to ultimately gain insight into the demand for COVID-19 vaccines. Our dataset was provided by the National Center for Immunization and Respiratory Disease as a apart of a DrivenData competition. The data detailed patient demographics, behaviors, opinions, health stats, and whether or not they received the vaccine. 
+**Project overview:** For this social analytics project, my team and I wanted to analyze the networks of popular musicians to identify any common themes. Our goal was to predict which songs will be popular based on the various audio features and the respective artist's network structure. We used Spotify's extensive API to gather our data. We defined a popular artist to be any artist with one or more songs with a popularity rating of 70 or more. We defined a connection to be when two artists collaborate on a song together. 
 
-We built models using Naive Bayes, Decision Tree, and Random Forest algorithms. We created multiple variations of each using forward feature selection and oversampling, due to a classs imbalance in our outcome variable (80% did not receive a vaccine). We balanced the cost of manufacturing a vaccine that went unused versus the cost of a customer not receiving a vaccine. Because of our class imbalance, F1-score would be our measure of success over accuracy. Ultimately, the Naive Bayes model with oversampling and foward selection performed the best. Our other models experienced overfitting and/or low scores. 
+From our analysis we discovered three main insights. With the use of clustering we observed there are two distinct genres of popular songs, upbeat/party songs and slow-paced/serious songs. After constructing the network, we observed there are statistically significant differences in the closeness and betweenness of the popular artist network compared to the non-popular artist network. The popular artist community is a smaller circle (higher closeness) and is less likely to broker relationships different artists together (lower betweennesss). Lastly, we observed the network of an artist strongly impacts the success of their songs. From a basic regression model using only a song's profile, we observed an R-squared of 0.238. When we included the average of the neighbors' network values the R-squared increased to 0.651; thus showing the value of one's network is linked with their popularity.
 
-<img src="images/h1n1_img.png?raw=true"/>
+<img src="images/spotify_img.png?raw=true"/>
+<img src="images/spotify_img2.png?raw=true"/>
+<img src="images/spotify_img3.png?raw=true"/>
+
+***Technical skills:*** Network analysis, social analytics, regression, k-means clustering, API
+
+***Tools:*** R, igraph
+
+***Team:*** Salem Arthur, Eric Chen, Edward Shih-Chung, Marianna Carini
 
 
-**Improvements:** If/when the NCIRD collects similar data for COVID-19, it would be interesting to study the similarities and differences in the H1N1 data. We would expect to see differences due to government mandates, but seeing the effect.
-
-***Technical skills:*** Naïve-Bayes, Decision Tree, Random Forest
-
-***Tools:*** WEKA, Python
-
-***Team:*** Eric Chen, Allen Lee, Hyoungmin (Stella) Lee, Smitha Kannanaikkal, Marianna Carini
-
-
-[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/H1N1_pred/)
-[![Open Slides](https://img.shields.io/badge/GitHub-View_Slides-red?logo=GitHub)](docs/H1N1_Pred_Presentation.png)
-[![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=Microsoft)](docs/H1N1_Pred_Report.pdf)
+[![Open Code](https://img.shields.io/badge/R-Open_Files-red?logo=R)](/spotify_network_analysis/)
+[![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/Spotify_Network_Pres.ppt)
+[![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=MicrosoftWord)](docs/Spotify_Network_Report.docx)
 
 ---
 
@@ -45,8 +44,32 @@ From our analysis, we recommended sending the vaccines first to the high impact 
 
 
 [![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/H1N1_pred/)
-[![Open Slides](https://img.shields.io/badge/GitHub-View_Slides-red?logo=GitHub)](docs/COVID_Nursing_Home.pdf)
-[![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=Microsoft)](docs/COVID_Nursing_Home_Report.pdf)
+[![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/COVID_Nursing_Home.pdf)
+[![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=MicrosoftWord)](docs/COVID_Nursing_Home_Report.pdf)
+
+---
+
+#### Predicting Total Nitrate (NO3) in the Atmosphere
+
+**Project overview:** At the time of this project, the Pfizer and BioNTech vaccines were recently approved for distribution. Our team wanted to study the H1N1 vaccine data to ultimately gain insight into the demand for COVID-19 vaccines. Our dataset was provided by the National Center for Immunization and Respiratory Disease as a apart of a DrivenData competition. The data detailed patient demographics, behaviors, opinions, health stats, and whether or not they received the vaccine. 
+
+We built models using Naive Bayes, Decision Tree, and Random Forest algorithms. We created multiple variations of each using forward feature selection and oversampling, due to a classs imbalance in our outcome variable (80% did not receive a vaccine). We balanced the cost of manufacturing a vaccine that went unused versus the cost of a customer not receiving a vaccine. Because of our class imbalance, F1-score would be our measure of success over accuracy. Ultimately, the Naive Bayes model with oversampling and foward selection performed the best. Our other models experienced overfitting and/or low scores. 
+
+<img src="images/h1n1_img.png?raw=true"/>
+
+
+**Improvements:** If/when the NCIRD collects similar data for COVID-19, it would be interesting to study the similarities and differences in the H1N1 data. We would expect to see differences due to government mandates, but seeing the effect.
+
+***Technical skills:*** Naïve-Bayes, Decision Tree, Random Forest
+
+***Tools:*** WEKA, Python
+
+***Team:*** Eric Chen, Allen Lee, Hyoungmin (Stella) Lee, Smitha Kannanaikkal, Marianna Carini
+
+
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/H1N1_pred/)
+[![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/H1N1_Pred_Presentation.png)
+[![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=MicrosoftWord)](docs/H1N1_Pred_Report.pdf)
 
 ---
 
@@ -69,30 +92,7 @@ Our group explored common environmental pollutants to find possible links betwee
 
 
 [![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](projects/nitrate_pred/)
-[![Open Slides](https://img.shields.io/badge/GitHub-View_Slides-red?logo=GitHub)](docs/nitrate_pred_slides.pdf)
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
-
+[![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/nitrate_pred_slides.pdf)
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
