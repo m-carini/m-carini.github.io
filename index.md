@@ -1,8 +1,31 @@
-## Portfolio
+# Portfolio
 
 ---
 
-#### Spotify Network Analysis
+### Anaheim Ducks Capstone Project
+
+**Project overview:** As a part of the UCI MSBA program, students are required to complete a six month long capstone project with a local OC company. I was fortunate enough to be paired with the Anaheim Ducks Hockey Club along with four other students. The purpose of the project was to answer three questions:
+• Who are Ducks customers?
+• What drives the buying behaviors of Ducks customers?
+• Is there any synergy between Ducks customers and customers within the H&S Ventures (the parent company) portfolio?
+
+With the use of recency frequency monetization (RFM) scoring, we were able to identify a potential target customer segmentation that had not been specifically marketed to previously. To showcase these segments, we created a Tableau dashboard to display their demographics. Next, we used survival analysis to investigate drivers towards Ducks ticket sales and the effectiveness of various marketing methonds. Our findings opened discussions towards a shift in marketing strategy from previous approaches. Lastly, we observed that Ducks customers prefer certain types of activities in the H&S portfolio. Our recommendation was to potentially increase the availability of these activities to attract more Ducks customers.
+
+Specifics and files are not shared for confidentiality purposes.
+
+<img src="images/ducks_img.png?raw=true"/>
+
+**Improvements:** From our analysis, we cannot say what is a cause and what is an effect; more specifically for the survival analysis piece of the project. The next step would be to set upa randomized experiment to draw more conclusive findings regarding the effectiveness of various marketing methods.
+
+***Technical skills:*** Survival analysis, RFM scoring, clustering, multivariate regression, SVM, KNN, decision tree, random forest
+
+***Tools:*** R, SQL, Tableau
+
+***Team:*** Salem Arthur, Eric Chen, Edward Shih-Chung, Marianna Carini
+
+---
+
+### Spotify Network Analysis
 
 **Project overview:** For this social analytics project, my team and I wanted to analyze the networks of popular musicians to identify any common themes. Our goal was to predict which songs will be popular based on the various audio features and the respective artist's network structure. We used Spotify's extensive API to gather our data. We defined a popular artist to be any artist with one or more songs with a popularity rating of 70 or more. We defined a connection to be when two artists collaborate on a song together. 
 
@@ -25,7 +48,7 @@ From our analysis we discovered three main insights. With the use of clustering 
 
 ---
 
-#### Nursing Home COVID-19 Risk Assessment
+### Nursing Home COVID-19 Risk Assessment
 
 **Project overview:** On the heels of the COVID-19 vaccine approvals for Pfizer and BioNTech, our team utilized our machine learning technics to protect the populations hardest hit by outbreaks, senior living facilities. We wanted to understand driving factors of COVID mortality and how best to distribute vaccines to senior citizens. We combined nursing home staff stats, nursing home supply stats, county census stats, and county COVID policy data to find trends with COVID mortality rates. Our group turned to k-means clustering to group like senior living facilities based on the mortality rates of COVID-19 at the time of analysis. Our clustering analysis came out with three distinct groups, deemed high, medium, and low impact. 
 
@@ -49,7 +72,7 @@ From our analysis, we recommended sending the vaccines first to the high impact 
 
 ---
 
-#### Predicting Total Nitrate (NO3) in the Atmosphere
+### H1N1 Vaccine Demand Prediction
 
 **Project overview:** At the time of this project, the Pfizer and BioNTech vaccines were recently approved for distribution. Our team wanted to study the H1N1 vaccine data to ultimately gain insight into the demand for COVID-19 vaccines. Our dataset was provided by the National Center for Immunization and Respiratory Disease as a apart of a DrivenData competition. The data detailed patient demographics, behaviors, opinions, health stats, and whether or not they received the vaccine. 
 
@@ -73,7 +96,7 @@ We built models using Naive Bayes, Decision Tree, and Random Forest algorithms. 
 
 ---
 
-#### Predicting Total Nitrate (NO3) in the Atmosphere
+### Predicting Total Nitrate (NO3) in the Atmosphere
 
 **Project overview:** This hackathon was hosted by the Data Science Go (DSGO) conference. Our team was provided time-series environmental data from the EPA on national parks in California. The goal was to garner insights into total nitrate levels.
 
