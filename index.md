@@ -5,9 +5,12 @@
 ### Anaheim Ducks Capstone Project
 
 **Project overview:** As a part of the UCI MSBA program, students are required to complete a six month long capstone project with a local OC company. I was fortunate enough to be paired with the Anaheim Ducks Hockey Club along with four other students. The purpose of the project was to answer three questions:
-• Who are Ducks customers?
-• What drives the buying behaviors of Ducks customers?
-• Is there any synergy between Ducks customers and customers within the H&S Ventures (the parent company) portfolio?
+
+  • Who are Ducks customers?
+
+  • What drives the buying behaviors of Ducks customers?
+
+  • Is there any synergy between Ducks customers and customers within the H&S Ventures (the parent company) portfolio?
 
 With the use of recency frequency monetization (RFM) scoring, we were able to identify a potential target customer segmentation that had not been specifically marketed to previously. To showcase these segments, we created a Tableau dashboard to display their demographics. Next, we used survival analysis to investigate drivers towards Ducks ticket sales and the effectiveness of various marketing methonds. Our findings opened discussions towards a shift in marketing strategy from previous approaches. Lastly, we observed that Ducks customers prefer certain types of activities in the H&S portfolio. Our recommendation was to potentially increase the availability of these activities to attract more Ducks customers.
 
