@@ -4,6 +4,8 @@
 
 ### Anaheim Ducks Capstone Project
 
+***Specifics and files are not shared for confidentiality purposes.***
+
 **Project overview:** As a part of the UCI MSBA program, students are required to complete a six month long capstone project with a local OC company. I was fortunate enough to be paired with the Anaheim Ducks Hockey Club along with four other students. The purpose of the project was to answer three questions:
 
   • Who are Ducks customers?
@@ -16,7 +18,7 @@ With the use of recency frequency monetization (RFM) scoring, we were able to id
 
 <img src="images/ducks_img.png?raw=true"/>
 
-**Improvements:** From our analysis, we cannot say what is a cause and what is an effect; more specifically for the survival analysis piece of the project. The next step would be to set upa randomized experiment to draw more conclusive findings regarding the effectiveness of various marketing methods.
+**Improvements:** From our analysis, we cannot say what is a cause and what is an effect; more specifically for the survival analysis piece of the project. The next step would be to set up a randomized experiment to draw more conclusive findings regarding the effectiveness of various marketing methods.
 
 ***Technical skills:*** Survival analysis, RFM scoring, clustering, multivariate regression, SVM, KNN, decision tree, random forest
 
