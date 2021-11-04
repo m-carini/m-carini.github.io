@@ -14,8 +14,6 @@
 
 With the use of recency frequency monetization (RFM) scoring, we were able to identify a potential target customer segmentation that had not been specifically marketed to previously. To showcase these segments, we created a Tableau dashboard to display their demographics. Next, we used survival analysis to investigate drivers towards Ducks ticket sales and the effectiveness of various marketing methonds. Our findings opened discussions towards a shift in marketing strategy from previous approaches. Lastly, we observed that Ducks customers prefer certain types of activities in the H&S portfolio. Our recommendation was to potentially increase the availability of these activities to attract more Ducks customers.
 
-Specifics and files are not shared for confidentiality purposes.
-
 <img src="images/ducks_img.png?raw=true"/>
 
 **Improvements:** From our analysis, we cannot say what is a cause and what is an effect; more specifically for the survival analysis piece of the project. The next step would be to set upa randomized experiment to draw more conclusive findings regarding the effectiveness of various marketing methods.
@@ -25,6 +23,8 @@ Specifics and files are not shared for confidentiality purposes.
 ***Tools:*** R, SQL, Tableau
 
 ***Team:*** Salem Arthur, Eric Chen, Edward Shih-Chung, Marianna Carini
+
+***Specifics and files are not shared for confidentiality purposes.***
 
 ---
 
