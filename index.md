@@ -8,7 +8,8 @@
 
 To do this, we created a list of key words relating to medications (ex. drug, cream, Advil, etc.) and utilized spaCy to identify words connected to our key words. The resulting function would take in the full review and return the significant tri-grams like, "decreased my nausea". We could then use vader to classify whether that phrase was positive or negative. This gives the user/provider the ability to comb through thousands of reviews and analyze the significant phrases for the medication. Furthermore, this methodology could be implimented in other contexts such as customer service reviews, legal documents, etc..
 
-<img src="images/ducks_img.png?raw=true"/>
+<img src="images/nlp_img.png?raw=true"/>
+<img src="images/nlp_img2.png?raw=true"/>
 
 **Improvements:** To further improve our custom medication tagging function, we could look at the optimal length from our keywords to give the right amount of context. We could also look into alternatives to spaCy like W2V.
 
@@ -17,6 +18,10 @@ To do this, we created a list of key words relating to medications (ex. drug, cr
 ***Tools:*** Python
 
 ***Team:*** Karl Hickel, Caesar Phan, Byran Sam, Marianna Carini
+
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/custom_drug_tagging/)
+[![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/Custom_Drug_Tagging_Pres.pptx)
+[![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=MicrosoftWord)](docs/Custom_Drug_Tagging_Report.pdf)
 
 ---
 
@@ -45,6 +50,33 @@ With the use of recency frequency monetization (RFM) scoring, we were able to id
 ***Team:*** Salem Arthur, Eric Chen, Edward Shih-Chung, Marianna Carini
 
 ***Specifics and files are not shared for confidentiality purposes.***
+
+---
+
+### Super Bowl LV Score Prediction
+
+**Project overview:** As a part of my Art of Forecasting course, we were asked to forecast the final score of Super Bowl LV. We were assigned teams where each member would contribute at least one forecast and the final result would be one ensembled score. 
+
+For my piece, I submitted three models to the group. My first model was based on success rate metrics (passing success rate, running success rate, etc.) as well as season averages for in-game statistics (runs, turnovers, etc.). I manually selected my variables based on p-values and stepwise linear regression. The model was run for Tampa Bay and Kansas City separately. The resulting score was 30 to 22 Tampa Bay. My second model was similar to my first model, however it only used success metrics and no in-game metrics. That model predicted 34 to 29 Tampa Bay.
+
+My third model was deemed a "lazy-man's ensemble" where I collected historic predictions from football experts (ESPN hosts, Sportscenter analysts, etc.). I then calculated the MAPE by source (ESPN, Sportscenter, NFL, etc.) and used an ensemble calculation by MAPE. The outcome of this model was 31 to 26 Kansas City. 
+
+Our team then compiled our models together using an ensemble calculation weighted on MAPE scores. Our final prediction was 30 to 28 Kansas City.
+
+<img src="images/sb_img.png?raw=true"/>
+<img src="images/sb_img2.png?raw=true"/>
+
+**Improvements:** The project was purposefully assigned on a short timeline to emmulate real-world requests. Given more time I would have looked into more variables to boost the r-squared of the first two Kansas City models. I also would have attempted ARIMA and ETS to predict in-game stats.
+
+***Technical skills:*** Stepwise regression, forecasting, feature creation
+
+***Tools:*** Alteryx, Excel
+
+***Team:*** Mira Daya, Karl Hickel, Ankit Jain, Allen Lee, Marianna Carini
+
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/super_bowl_pred/)
+[![Open Slides](https://img.shields.io/badge/PPT-View_Carini_Slides-red?logo=microsoftpowerpoint)](docs/Super_Bowl_Carini_Details.pptx)
+[![Open Slides](https://img.shields.io/badge/PDF-View_Group_Slides-red?logo=microsoftword)](docs/Super_Bowl_Group_Pres.pdf)
 
 ---
 
