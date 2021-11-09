@@ -1,0 +1,1380 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="115" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>kc_tb_team_stats.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Team1" size="255" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Week" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Game Number" size="255" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Game Location" size="255" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Team2" size="255" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Team1_Score" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Team2_Score" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Team1_Passing" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Team1_Rushing" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Team1_Turnovers" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Team2_Passing" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Team2_Rushing" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Team2_Turnovers" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_O_pass_rate" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_O_pass_attempts" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_O_pass_success_rate" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_O_pass_YPA" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_O_run_attempts" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_O_run_success_rate" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_O_run_YPA" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_O_pass_rate" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_O_pass_attempts" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_O_pass_success_rate" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_O_pass_YPA" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_O_run_attempts" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_O_run_success_rate" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_O_run_YPA" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_D_pass_rate" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_D_pass_attempts" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_D_pass_success_rate" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_D_pass_YPA" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_D_run_attempts" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_D_run_success_rate" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T1_D_run_YPA" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_D_pass_rate" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_D_pass_attempts" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_D_pass_success_rate" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_D_pass_YPA" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_D_run_attempts" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_D_run_success_rate" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="T2_D_run_YPA" source="File: \\Mac\Home\Desktop\BANA 290 Forecasting\kc_tb_team_stats.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="426" y="103" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Team1" selected="True" />
+            <SelectField field="Game Location" selected="True" />
+            <SelectField field="Team1_Score" selected="True" />
+            <SelectField field="Team2_Score" selected="True" />
+            <SelectField field="Team1_Passing" selected="True" />
+            <SelectField field="Team1_Rushing" selected="True" />
+            <SelectField field="Team1_Turnovers" selected="True" />
+            <SelectField field="Team2_Passing" selected="True" />
+            <SelectField field="Team2_Rushing" selected="True" />
+            <SelectField field="Team2_Turnovers" selected="True" />
+            <SelectField field="T1_O_pass_rate" selected="True" />
+            <SelectField field="T1_O_pass_success_rate" selected="True" />
+            <SelectField field="T1_O_run_success_rate" selected="True" />
+            <SelectField field="T2_O_pass_rate" selected="True" />
+            <SelectField field="T2_O_pass_success_rate" selected="True" />
+            <SelectField field="T2_O_run_success_rate" selected="True" />
+            <SelectField field="T1_D_pass_rate" selected="True" />
+            <SelectField field="T1_D_pass_success_rate" selected="True" />
+            <SelectField field="T1_D_run_success_rate" selected="True" />
+            <SelectField field="T2_D_pass_rate" selected="True" />
+            <SelectField field="T2_D_pass_success_rate" selected="True" />
+            <SelectField field="T2_D_run_success_rate" selected="True" />
+            <SelectField field="Away" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings>
+        <Position x="522" y="79" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">80</Value>
+          <Value name="validation pct">20</Value>
+          <Value name="rand seed">1</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="Linear_Regression">
+        <Position x="618" y="79" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="standardize_pred">True</Value>
+          <Value name="internal_cv">True</Value>
+          <Value name="display_graphs">True</Value>
+          <Value name="set_seed_internal_cv">True</Value>
+          <Value name="set_seed_external_cv">True</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Linear_Regression_E</Value>
+          <Value name="Y Var">Team1_Score</Value>
+          <Value name="X Vars">Team1_Passing,Team1_Rushing,Team2_Passing,T1_O_pass_success_rate,Away</Value>
+          <Value name="Omit Constant">False</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Linear_Regression_E</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="79" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_2980_e94ba2936a8e422da94bc08f5c888373_\Engine_432_38b57b8e249d4657b95a53021f9cd9ec_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="127" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_2980_e94ba2936a8e422da94bc08f5c888373_\Engine_432_cd3387e95fa3455184332a5412d1d685_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="306" y="115" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>Week</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-02-04 19:29:09</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>21</Operand>
+              <StartDate>2021-02-04 19:29:09</StartDate>
+              <EndDate>2021-02-04 19:29:09</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Week] != 21</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="Score">
+        <Position x="714" y="211" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="modelChoice">Local Model</Value>
+          <Value name="score field">
+          </Value>
+          <Value name="is oversampled">False</Value>
+          <Value name="oversampled value">
+          </Value>
+          <Value name="original percent">2</Value>
+          <Value name="log y">False</Value>
+          <Value name="prediction.interval">False</Value>
+          <Value name="interval.level">95</Value>
+          <Value name="append.xdf">False</Value>
+          <Value name="num.records">256000</Value>
+          <Value name="credentials">
+          </Value>
+          <Value name="models">
+          </Value>
+          <Value name="page">
+          </Value>
+          <Value name="errorStatus">
+          </Value>
+          <Value name="modelDetailJSON">
+          </Value>
+          <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+          <Value name="promoteURL">
+          </Value>
+          <Value name="username">
+          </Value>
+          <Value name="model_name">
+          </Value>
+          <Value name="model_owner">
+          </Value>
+          <Value name="apiKey">
+          </Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="810" y="211" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_2980_e94ba2936a8e422da94bc08f5c888373_\Engine_432_d187c04a27be48688515c637cb1ee56a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="822" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Team1_Score]-[Score]" field="Error" size="8" type="Double" />
+            <FormulaField expression="ABS([Error])/[Team1_Score]" field="MAPE" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Error = [Team1_Score]-[Score]
+MAPE = ABS([Error])/[Team1_Score]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings>
+        <Position x="930" y="199" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="field">Error</Value>
+          <Value name="notauto">False</Value>
+          <Value name="breaks">1</Value>
+          <Value name="density">False</Value>
+          <Value name="scale">1.0</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Histogram.yxmc" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1026" y="199" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_2980_e94ba2936a8e422da94bc08f5c888373_\Engine_432_5a4435b4369b4fd6b8bbe56de86751c2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="894" y="235" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_2980_e94ba2936a8e422da94bc08f5c888373_\Engine_432_b629f27c385341f38bba942ede2162d6_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="222" y="115" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Team1</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-02-04 22:52:04</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Kansas City Chiefs</Operand>
+              <StartDate>2021-02-04 22:52:04</StartDate>
+              <EndDate>2021-02-04 22:52:04</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Team1] = "Kansas City Chiefs"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="138" y="115" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Game Location]=&quot;AWAY&quot; THEN 1 ELSE 0 ENDIF " field="Away" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Away = IF [Game Location]="AWAY" THEN 1 ELSE 0 ENDIF 
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings>
+        <Position x="810" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Model Coefficients.yxmc" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="894" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_2980_e94ba2936a8e422da94bc08f5c888373_\Engine_432_db8ac042bd634d5db7115efde0f09292_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="150" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_2980_e94ba2936a8e422da94bc08f5c888373_\Engine_432_a956a19dd2cc4a33b707f312877dff06_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="929" y="54" width="152" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 42</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="40">
+          <GuiSettings>
+            <Position x="954" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="New Model" />
+              <Value name="both">True</Value>
+              <Value name="backward">False</Value>
+              <Value name="AIC">False</Value>
+              <Value name="BIC">True</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Stepwise.yxmc" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1038" y="115" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_2648_13bfe928d3a54bcd8dd31fb0380ddef1_\Engine_980_c60b33d154d84ad2b94377b36c36ec21_.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="702" y="295" width="152" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 36</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="33">
+          <GuiSettings>
+            <Position x="810" y="343" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="x var">Team1_Score</Value>
+              <Value name="y var">Score</Value>
+              <Value name="y binary">False</Value>
+              <Value name="y level" />
+              <Value name="reg line">True</Value>
+              <Value name="smooth line">True</Value>
+              <Value name="smooth span">50</Value>
+              <Value name="spread">True</Value>
+              <Value name="boxplots">True</Value>
+              <Value name="jitter x">False</Value>
+              <Value name="jitter y">False</Value>
+              <Value name="log x">False</Value>
+              <Value name="log y">False</Value>
+              <Value name="groups">False</Value>
+              <Value name="group var">Team1</Value>
+              <Value name="group lines">False</Value>
+              <Value name="default">True</Value>
+              <Value name="topleft">False</Value>
+              <Value name="topright">False</Value>
+              <Value name="bottomleft">False</Value>
+              <Value name="bottomright">False</Value>
+              <Value name="x label" />
+              <Value name="y label" />
+              <Value name="pointsize">10</Value>
+              <Value name="point size">1.0</Value>
+              <Value name="axis text size">1.2</Value>
+              <Value name="axis label size">1.3</Value>
+              <Value name="title size">1.4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="906" y="343" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_3388_5d8c6e6c932e4298ad9323421dded69e_\Engine_980_acdcf2f88b224ca182a1b12a80639f7a_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="270" y="247" width="152" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 23</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings>
+            <Position x="318" y="295" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">Team1=True,Game Location=True,Team2=True,Team1_Score=True,T1_O_pass_rate=True,T1_O_pass_attempts=True,T1_O_pass_success_rate=True,T1_O_pass_YPA=True,T1_O_run_attempts=True,T1_O_run_success_rate=True,T1_O_run_YPA=True,T2_O_pass_rate=True,T2_O_pass_attempts=True,T2_O_pass_success_rate=True,T2_O_pass_YPA=True,T2_O_run_attempts=True,T2_O_run_success_rate=True,T2_O_run_YPA=True,T1_D_pass_rate=True,T1_D_pass_attempts=True,T1_D_pass_success_rate=True,T1_D_pass_YPA=True,T1_D_run_attempts=True,T1_D_run_success_rate=True,T1_D_run_YPA=True,T2_D_pass_rate=True,T2_D_pass_attempts=True,T2_D_pass_success_rate=True,T2_D_pass_YPA=True,T2_D_run_attempts=True,T2_D_run_success_rate=True,T2_D_run_YPA=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="702" y="295" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_5468_f35b2a26f7734fe6a502eecad37203b5_\Engine_5952_e9f3de41c86d4894bb4285efdff46812_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="630" y="331" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_5468_f35b2a26f7734fe6a502eecad37203b5_\Engine_5952_8618c7db88264cc2b0f45d60e67975f1_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings>
+            <Position x="318" y="379" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="do target">False</Value>
+              <Value name="target">Team1</Value>
+              <Value name="target level" />
+              <Value name="use fields">"Team1_Score","T1_O_pass_rate","T1_O_pass_attempts","T1_O_pass_success_rate","T1_O_pass_YPA","T1_O_run_attempts","T1_O_run_success_rate","T1_O_run_YPA"</Value>
+              <Value name="Pearson">True</Value>
+              <Value name="Spearman">False</Value>
+              <Value name="Hoeffding">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings>
+            <Position x="474" y="379" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="do target">False</Value>
+              <Value name="target">Team1</Value>
+              <Value name="target level" />
+              <Value name="use fields">"Team1_Score","T2_O_pass_rate","T2_O_pass_attempts","T2_O_pass_success_rate","T2_O_pass_YPA","T2_O_run_attempts","T2_O_run_success_rate","T2_O_run_YPA"</Value>
+              <Value name="Pearson">True</Value>
+              <Value name="Spearman">False</Value>
+              <Value name="Hoeffding">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings>
+            <Position x="306" y="451" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="do target">False</Value>
+              <Value name="target">Team1</Value>
+              <Value name="target level" />
+              <Value name="use fields">"Team1_Score","T1_D_pass_rate","T1_D_pass_attempts","T1_D_pass_success_rate","T1_D_pass_YPA","T1_D_run_attempts","T1_D_run_success_rate","T1_D_run_YPA"</Value>
+              <Value name="Pearson">True</Value>
+              <Value name="Spearman">False</Value>
+              <Value name="Hoeffding">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings>
+            <Position x="462" y="451" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="do target">False</Value>
+              <Value name="target">Team1</Value>
+              <Value name="target level" />
+              <Value name="use fields">"Team1_Score","T2_D_pass_rate","T2_D_pass_attempts","T2_D_pass_success_rate","T2_D_pass_YPA","T2_D_run_attempts","T2_D_run_success_rate","T2_D_run_YPA"</Value>
+              <Value name="Pearson">True</Value>
+              <Value name="Spearman">False</Value>
+              <Value name="Hoeffding">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings>
+            <Position x="293" y="547" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="x var">T1_O_pass_success_rate</Value>
+              <Value name="y var">Team1_Score</Value>
+              <Value name="y binary">False</Value>
+              <Value name="y level" />
+              <Value name="reg line">True</Value>
+              <Value name="smooth line">True</Value>
+              <Value name="smooth span">50</Value>
+              <Value name="spread">True</Value>
+              <Value name="boxplots">True</Value>
+              <Value name="jitter x">False</Value>
+              <Value name="jitter y">False</Value>
+              <Value name="log x">False</Value>
+              <Value name="log y">False</Value>
+              <Value name="groups">False</Value>
+              <Value name="group var">Team1</Value>
+              <Value name="group lines">False</Value>
+              <Value name="default">True</Value>
+              <Value name="topleft">False</Value>
+              <Value name="topright">False</Value>
+              <Value name="bottomleft">False</Value>
+              <Value name="bottomright">False</Value>
+              <Value name="x label" />
+              <Value name="y label" />
+              <Value name="pointsize">10</Value>
+              <Value name="point size">1.0</Value>
+              <Value name="axis text size">1.2</Value>
+              <Value name="axis label size">1.3</Value>
+              <Value name="title size">1.4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="390" y="547" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_5468_f35b2a26f7734fe6a502eecad37203b5_\Engine_5952_45fa47606c3d40319f7ac357cdb65d54_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="402" y="343" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_5468_f35b2a26f7734fe6a502eecad37203b5_\Engine_5952_77f633e577124880af02a544e1ec3f07_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="402" y="391" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_5468_f35b2a26f7734fe6a502eecad37203b5_\Engine_5952_ed97fea60a6547189c6225aaea50e993_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="570" y="343" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_5468_f35b2a26f7734fe6a502eecad37203b5_\Engine_5952_bcf23d10f849467d9b868f3a88903ec6_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="582" y="403" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_5468_f35b2a26f7734fe6a502eecad37203b5_\Engine_5952_d7456f83c020466dbcf64a61badd0cd9_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="582" y="463" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_5468_f35b2a26f7734fe6a502eecad37203b5_\Engine_5952_63a115b709a544d89ed9a3ebb7c3dc74_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="546" y="499" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_5468_f35b2a26f7734fe6a502eecad37203b5_\Engine_5952_08ffb5f8b5af4d90ad36e85bb8049918_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="390" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_5468_f35b2a26f7734fe6a502eecad37203b5_\Engine_5952_bc518bfb4b2f485f9ba4ee8da5368b97_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="389" y="475" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARINA~1\AppData\Local\Temp\Engine_5468_f35b2a26f7734fe6a502eecad37203b5_\Engine_5952_5aaa29ba1bd14c84a6609024a165c62f_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Estimation" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Validation" />
+      <Destination ToolID="31" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="31" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Validation" />
+      <Destination ToolID="40" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="40" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Reports" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Interactive Report" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="33" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="True" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Reports" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Scater Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Reports" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Interactive" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Correlation Matrix" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Correlation Matrix" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Correlation Matrix" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Correlation Matrix" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Scater Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>KC_SB_PredV2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
