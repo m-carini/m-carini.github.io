@@ -141,7 +141,7 @@ From our analysis we discovered three main insights. With the use of clustering 
 
 
 [![Open Code](https://img.shields.io/badge/R-Open_Files-red?logo=R)](https://github.com/m-carini/m-carini.github.io/tree/main/spotify_network_analysis/)
-[![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/Spotify_Network_Pres.ppt)
+[![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/Spotify_Network_Pres.pptx)
 [![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=MicrosoftWord)](docs/Spotify_Network_Report.docx)
 
 ---
