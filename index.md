@@ -2,6 +2,13 @@
 
 ---
 
+[Netflix Stock Prediction](https://github.com/m-carini/m-carini.github.io/blob/main/index.md#netflix-stock-prediction)
+
+[FoodAid Prototype](https://github.com/m-carini/m-carini.github.io/blob/main/index.md#foodaid-prototype)
+
+
+---
+
 ### Netflix Stock Prediction
 
 **Project overview:** In my Art of Forecasting course at UCI, we were assigned a Fortune 500 company and tasked to forecast their stock price on December 31st, 2021. I was assigned Netflix as my company.
