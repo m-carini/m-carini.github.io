@@ -189,7 +189,7 @@ We built models using Naive Bayes, Decision Tree, and Random Forest algorithms. 
 
 
 [![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](https://github.com/m-carini/m-carini.github.io/tree/main/H1N1_pred/)
-[![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/H1N1_Pred_Presentation2.png)
+[![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/H1N1_Pred_Presentation2.pdf)
 [![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=MicrosoftWord)](docs/H1N1_Pred_Report.pdf)
 
 ---
