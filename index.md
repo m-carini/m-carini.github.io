@@ -2,6 +2,26 @@
 
 ---
 
+### Netflix Stock Prediction
+
+**Project overview:** In my Art of Forecasting course at UCI, we were assigned a Fortune 500 company and tasked to forecast their stock price on December 31st, 2021. I was assigned Netflix as my company.
+
+The dataset I created included historic stock prices, historic netflix subscribers, market index values, and competitor stock values all on a monthly basis. From there I created an ARIMA model and an ETS model based on historic stock prices. Next, I created a linear regression model using lagged index and competitor stock values. I looked into various timeframes for lagging and picked the one with the best MAPE. In doing that, I found the lagged DirecTV stock value fit a near perfect negative line (image below). The final linear model performed at 0.869 R-squared. Lastly, I created a rolling 12 month average model, where I again studied various rolling values and 12 gave the best MAPE.  
+
+The final outcome is an ensemble model based on weighted MAPE. At the time of my prediction, Netflix stock was trading at $553.41. From my model, I predicted the stock value to increase 33.22% to $690.11
+
+<img src="images/netflix_img.png?raw=true"/>
+<img src="images/netflix_img2.png?raw=true"/>
+
+***Technical skills:*** ARIMA, ETS, regression
+
+***Tools:*** Alteryx, Excel
+
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/netflix/)
+[![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/Netflix Presentation Notes.pptx)
+
+---
+
 ### Extracting Insights on Medications From Drug Reviews
 
 **Project overview:** Our group used the UCI Drug Review machine learning dataset with the goal of extracting insights for potential users. The challenge with this data is that medical conditions are inherantly negative (i.e. cancer, headache, pain, etc.). Out of the box NLP packages, like vader and n-grams, will not be adequate in rating a text as positive or negative. With medication reviews, we need to separate the text pertaining to the medication from the text regarding the condition. 
@@ -78,6 +98,28 @@ Our team then compiled our models together using an ensemble calculation weighte
 [![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/super_bowl_pred/)
 [![Open Slides](https://img.shields.io/badge/PPT-View_Carini_Slides-red?logo=microsoftpowerpoint)](docs/Super_Bowl_Carini_Details.pptx)
 [![Open Slides](https://img.shields.io/badge/PDF-View_Group_Slides-red?logo=microsoftword)](docs/Super_Bowl_Group_Pres.pdf)
+
+---
+
+### Heart Disease Neural Network
+
+**Project overview:** In this project, my group and I used neural networks to predict whether or not an individual has a cardiovascular condition based on their other health metrics. Due to the nature of the problem, our goal was to optimize recall. This way we would minimize misclassifying someone with heart disease at the expense of telling someone they have a heart disease when in fact they do not. 
+
+We looked to imrpove our model using a variety of parameter tuning. Our model did not improve when using different numbers of layers with various densities. Next we tried different optimizers and numbers of epochs.  Our model improved with RMS as the optimizer and worked best with 30 epochs. After we looked at various initializers and found RandomNormal worked the best with our data. 
+
+We did see evidence of overfitting, so we continued to test various hyperparameters. Varying dropout rates in different layers did not impact our recall much and actually increased our overfitting problem. Using both batch normailization and dropout regularization gave us the highest recall without overfitting and turned out to be our best model.
+
+<img src="images/heart_nn_img.png?raw=true"/>
+<img src="images/heart_nn_img2.png?raw=true"/>
+
+***Technical skills:*** Tensorflow, neural network, deep learning
+
+***Tools:*** Google Collab, Python
+
+***Team:*** Karl Hickel, Matthais Ronnau, Caesar Phan, Marianna Carini
+
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/heart_disease_nn/)
+[![Open Slides](https://img.shields.io/badge/PDF-View_Report-red?logo=microsoftword)](docs/heart_nn_report.pdf)
 
 ---
 
@@ -172,6 +214,24 @@ Our group explored common environmental pollutants to find possible links betwee
 
 [![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](projects/nitrate_pred/)
 [![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/nitrate_pred_slides.pdf)
+
+---
+
+### FoodAid Prototype
+
+**Project overview:** This hackathon was put on by the City of Los Angeles and Data360. The goal was to use data to bridge the gap between those facing food insecurity and resources. My group consisted of my peers from the UCI MSBA program. 
+
+Our group set out to leverage data to spread awareness about food insecurity and destigmatize getting help. In a few short hours we created a UI that included a food aid score to easily show providers which areas needed more help than others, a feature where users could find help, and a feature where individuals and/or organizations could create a post to offer help. The food aid score was a calculation based on median income, race, population under the poverty line, and the unemployment rate all at a census tract level. The higher the score the more aid was needed. A score of zero reflected about average need and a negative score meant that tract was more likely to be able to provide support. This was intended to not only spread awareness, but allow established non-profits see what neighborhoods to reach out to. 
+
+After presenting to the judges, our team was awarded best overall project and the opportunity to work on our project further with the City of Los Angeles.  
+
+<img src="images/food_aid_img.png?raw=true"/>
+
+***Tools:*** Python, R
+
+***Team:*** Mira Daya, Ankit Jain, Smitha Kannanaikal, Marianna Carini
+
+[![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/food_aid_pres.pdf)
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
