@@ -17,7 +17,7 @@ The final outcome is an ensemble model based on weighted MAPE. At the time of my
 
 ***Tools:*** Alteryx, Excel
 
-[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/netflix/)
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](netflix/)
 [![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/Netflix Presentation Notes.pptx)
 
 ---
@@ -39,7 +39,7 @@ To do this, we created a list of key words relating to medications (ex. drug, cr
 
 ***Team:*** Karl Hickel, Caesar Phan, Byran Sam, Marianna Carini
 
-[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/custom_drug_tagging/)
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](custom_drug_tagging/)
 [![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/Custom_Drug_Tagging_Pres.pptx)
 [![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=MicrosoftWord)](docs/Custom_Drug_Tagging_Report.pdf)
 [![Open Article](https://img.shields.io/badge/Link-View_Article-red?logo=Medium)](https://mcarini.medium.com/extracting-insights-on-medications-from-drug-reviews-e59c27a1f2d4)
@@ -95,7 +95,7 @@ Our team then compiled our models together using an ensemble calculation weighte
 
 ***Team:*** Mira Daya, Karl Hickel, Ankit Jain, Allen Lee, Marianna Carini
 
-[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/super_bowl_pred/)
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](super_bowl_pred/)
 [![Open Slides](https://img.shields.io/badge/PPT-View_Carini_Slides-red?logo=microsoftpowerpoint)](docs/Super_Bowl_Carini_Details.pptx)
 [![Open Slides](https://img.shields.io/badge/PDF-View_Group_Slides-red?logo=microsoftword)](docs/Super_Bowl_Group_Pres.pdf)
 
@@ -118,7 +118,7 @@ We did see evidence of overfitting, so we continued to test various hyperparamet
 
 ***Team:*** Karl Hickel, Matthais Ronnau, Caesar Phan, Marianna Carini
 
-[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/heart_disease_nn/)
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](heart_disease_nn/)
 [![Open Slides](https://img.shields.io/badge/PDF-View_Report-red?logo=microsoftword)](docs/heart_nn_report.pdf)
 
 ---
@@ -140,7 +140,7 @@ From our analysis we discovered three main insights. With the use of clustering 
 ***Team:*** Salem Arthur, Eric Chen, Edward Shih-Chung, Marianna Carini
 
 
-[![Open Code](https://img.shields.io/badge/R-Open_Files-red?logo=R)](/spotify_network_analysis/)
+[![Open Code](https://img.shields.io/badge/R-Open_Files-red?logo=R)](spotify_network_analysis/)
 [![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/Spotify_Network_Pres.ppt)
 [![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=MicrosoftWord)](docs/Spotify_Network_Report.docx)
 
@@ -164,7 +164,7 @@ From our analysis, we recommended sending the vaccines first to the high impact 
 ***Team:*** Eric Chen, Allen Lee, Hyoungmin (Stella) Lee, Smitha Kannanaikkal, Marianna Carini
 
 
-[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/H1N1_pred/)
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](H1N1_pred/)
 [![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/COVID_Nursing_Home.pdf)
 [![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=MicrosoftWord)](docs/COVID_Nursing_Home_Report.pdf)
 
@@ -188,7 +188,7 @@ We built models using Naive Bayes, Decision Tree, and Random Forest algorithms. 
 ***Team:*** Eric Chen, Allen Lee, Hyoungmin (Stella) Lee, Smitha Kannanaikkal, Marianna Carini
 
 
-[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/H1N1_pred/)
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](H1N1_pred/)
 [![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/H1N1_Pred_Presentation.png)
 [![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=MicrosoftWord)](docs/H1N1_Pred_Report.pdf)
 
