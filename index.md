@@ -18,7 +18,7 @@ The final outcome is an ensemble model based on weighted MAPE. At the time of my
 ***Tools:*** Alteryx, Excel
 
 [![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](netflix/)
-[![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/Netflix Presentation Notes.pptx)
+[![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/Netflix_Presentation_Notes.pptx)
 
 ---
 
