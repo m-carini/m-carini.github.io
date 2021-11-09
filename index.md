@@ -2,7 +2,7 @@
 
 ---
 
-### Custom Drug Parts of Speech Tagging
+### Extracting Insights on Medications From Drug Reviews
 
 **Project overview:** Our group used the UCI Drug Review machine learning dataset with the goal of extracting insights for potential users. The challenge with this data is that medical conditions are inherantly negative (i.e. cancer, headache, pain, etc.). Out of the box NLP packages, like vader and n-grams, will not be adequate in rating a text as positive or negative. With medication reviews, we need to separate the text pertaining to the medication from the text regarding the condition. 
 
@@ -22,6 +22,7 @@ To do this, we created a list of key words relating to medications (ex. drug, cr
 [![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](/custom_drug_tagging/)
 [![Open Slides](https://img.shields.io/badge/PPT-View_Slides-red?logo=microsoftpowerpoint)](docs/Custom_Drug_Tagging_Pres.pptx)
 [![Open Report](https://img.shields.io/badge/PDF-View_Report-red?logo=MicrosoftWord)](docs/Custom_Drug_Tagging_Report.pdf)
+[![Open Article](https://img.shields.io/badge/Link-View_Article-red?logo=Medium)](https://mcarini.medium.com/extracting-insights-on-medications-from-drug-reviews-e59c27a1f2d4)
 
 ---
 
