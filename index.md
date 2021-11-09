@@ -2,6 +2,24 @@
 
 ---
 
+### Custom Drug Parts of Speech Tagging
+
+**Project overview:** Our group used the UCI Drug Review machine learning dataset with the goal of extracting insights for potential users. The challenge with this data is that medical conditions are inherantly negative (i.e. cancer, headache, pain, etc.). Out of the box NLP packages, like vader and n-grams, will not be adequate in rating a text as positive or negative. With medication reviews, we need to separate the text pertaining to the medication from the text regarding the condition. 
+
+To do this, we created a list of key words relating to medications (ex. drug, cream, Advil, etc.) and utilized spaCy to identify words connected to our key words. The resulting function would take in the full review and return the significant tri-grams like, "decreased my nausea". We could then use vader to classify whether that phrase was positive or negative. This gives the user/provider the ability to comb through thousands of reviews and analyze the significant phrases for the medication. Furthermore, this methodology could be implimented in other contexts such as customer service reviews, legal documents, etc..
+
+<img src="images/ducks_img.png?raw=true"/>
+
+**Improvements:** To further improve our custom medication tagging function, we could look at the optimal length from our keywords to give the right amount of context. We could also look into alternatives to spaCy like W2V.
+
+***Technical skills:*** Natural language processing, sentiment analysis
+
+***Tools:*** Python
+
+***Team:*** Karl Hickel, Caesar Phan, Byran Sam, Marianna Carini
+
+---
+
 ### Anaheim Ducks Capstone Project
 
 ***Specifics and files are not shared for confidentiality purposes.***
