@@ -6,9 +6,9 @@
 
 **Project overview:** In my Art of Forecasting course at UCI, we were assigned a Fortune 500 company and tasked to forecast their stock price on December 31st, 2021. I was assigned Netflix as my company.
 
-The dataset I created included historic stock prices, historic netflix subscribers, market index values, and competitor stock values all on a monthly basis. From there I created an ARIMA model and an ETS model based on historic stock prices. Next, I created a linear regression model using lagged index and competitor stock values. I looked into various timeframes for lagging and picked the one with the best MAPE. In doing that, I found the lagged DirecTV stock value fit a near perfect negative line (image below). The final linear model performed at 0.869 R-squared. Lastly, I created a rolling 12 month average model, where I again studied various rolling values and 12 gave the best MAPE.  
+The dataset I created included historic stock prices, historic Netflix subscribers, market index values, and competitor stock values all on a monthly basis. From there I created an ARIMA model and an ETS model based on historic stock prices. Next, I created a linear regression model using lagged index and competitor stock values. I investigated various timeframes for lagging and picked the one with the best MAPE. In doing that, I found the lagged DirecTV stock value fit a near perfect negative line (image below). The final linear model performed at 0.869 R-squared. Lastly, I created a rolling 12-month average model, where I again studied various rolling values and 12 gave the best MAPE.  
 
-The final outcome is an ensemble model based on weighted MAPE. At the time of my prediction, Netflix stock was trading at $553.41. From my model, I predicted the stock value to increase 33.22% to $690.11
+The outcome is an ensemble model based on weighted MAPE. At the time of my prediction, Netflix stock was trading at $553.41. From my model, I predicted the stock value to increase 33.22% to $690.11
 
 <img src="images/netflix_img.png?raw=true"/>
 <img src="images/netflix_img2.png?raw=true"/>
@@ -24,9 +24,9 @@ The final outcome is an ensemble model based on weighted MAPE. At the time of my
 
 ### Extracting Insights on Medications From Drug Reviews
 
-**Project overview:** Our group used the UCI Drug Review machine learning dataset with the goal of extracting insights for potential users. The challenge with this data is that medical conditions are inherantly negative (i.e. cancer, headache, pain, etc.). Out of the box NLP packages, like vader and n-grams, will not be adequate in rating a text as positive or negative. With medication reviews, we need to separate the text pertaining to the medication from the text regarding the condition. 
+**Project overview:** Our group used the UCI Drug Review machine learning dataset with the goal of extracting insights for potential users. The challenge with this data is that medical conditions are inherently negative (i.e. cancer, headache, pain, etc.). Out of the box NLP packages, like vader and n-grams, will not be adequate in rating a text as positive or negative. With medication reviews, we need to separate the text pertaining to the medication from the text regarding the condition. 
 
-To do this, we created a list of key words relating to medications (ex. drug, cream, Advil, etc.) and utilized spaCy to identify words connected to our key words. The resulting function would take in the full review and return the significant tri-grams like, "decreased my nausea". We could then use vader to classify whether that phrase was positive or negative. This gives the user/provider the ability to comb through thousands of reviews and analyze the significant phrases for the medication. Furthermore, this methodology could be implimented in other contexts such as customer service reviews, legal documents, etc..
+To do this, we created a list of key words relating to medications (ex. drug, cream, Advil, etc.) and utilized spaCy to identify words connected to our key words. The resulting function would take in the full review and return the significant tri-grams like, "decreased my nausea". We could then use vader to classify whether that phrase was positive or negative. This gives the user/provider the ability to comb through thousands of reviews and analyze the significant phrases for the medication. Furthermore, this methodology could be implemented in other contexts such as customer service reviews, legal documents, etc..
 
 <img src="images/nlp_img.png?raw=true"/>
 <img src="images/nlp_img2.png?raw=true"/>
@@ -58,7 +58,7 @@ To do this, we created a list of key words relating to medications (ex. drug, cr
 
   • Is there any synergy between Ducks customers and customers within the H&S Ventures (the parent company) portfolio?
 
-With the use of recency frequency monetization (RFM) scoring, we were able to identify a potential target customer segmentation that had not been specifically marketed to previously. To showcase these segments, we created a Tableau dashboard to display their demographics. Next, we used survival analysis to investigate drivers towards Ducks ticket sales and the effectiveness of various marketing methonds. Our findings opened discussions towards a shift in marketing strategy from previous approaches. Lastly, we observed that Ducks customers prefer certain types of activities in the H&S portfolio. Our recommendation was to potentially increase the availability of these activities to attract more Ducks customers.
+With the use of recency frequency monetization (RFM) scoring, we were able to identify a potential target customer segmentation that had not been specifically marketed to previously. To showcase these segments, we created a Tableau dashboard to display their demographics. Next, we used survival analysis to investigate drivers towards Ducks ticket sales and the effectiveness of various marketing methods. Our findings opened discussions towards a shift in marketing strategy from previous approaches. Lastly, we observed that Ducks customers prefer certain types of activities in the H&S portfolio. Our recommendation was to potentially increase the availability of these activities to attract more Ducks customers.
 
 <img src="images/ducks_img.png?raw=true"/>
 
@@ -87,7 +87,7 @@ Our team then compiled our models together using an ensemble calculation weighte
 <img src="images/sb_img.png?raw=true"/>
 <img src="images/sb_img2.png?raw=true"/>
 
-**Improvements:** The project was purposefully assigned on a short timeline to emmulate real-world requests. Given more time I would have looked into more variables to boost the r-squared of the first two Kansas City models. I also would have attempted ARIMA and ETS to predict in-game stats.
+**Improvements:** The project was purposefully assigned on a short timeline to emulate real-world requests. Given more time I would have investigated more variables to boost the r-squared of the first two Kansas City models. I also would have attempted ARIMA and ETS to predict in-game stats.
 
 ***Technical skills:*** Stepwise regression, forecasting, feature creation
 
@@ -105,9 +105,9 @@ Our team then compiled our models together using an ensemble calculation weighte
 
 **Project overview:** In this project, my group and I used neural networks to predict whether or not an individual has a cardiovascular condition based on their other health metrics. Due to the nature of the problem, our goal was to optimize recall. This way we would minimize misclassifying someone with heart disease at the expense of telling someone they have a heart disease when in fact they do not. 
 
-We looked to imrpove our model using a variety of parameter tuning. Our model did not improve when using different numbers of layers with various densities. Next we tried different optimizers and numbers of epochs.  Our model improved with RMS as the optimizer and worked best with 30 epochs. After we looked at various initializers and found RandomNormal worked the best with our data. 
+We looked to improve our model using a variety of parameter tuning. Our model did not improve when using different numbers of layers with various densities. Next, we tried different optimizers and numbers of epochs.  Our model improved with RMS as the optimizer and worked best with 30 epochs. After we looked at various initializers and found RandomNormal worked the best with our data. 
 
-We did see evidence of overfitting, so we continued to test various hyperparameters. Varying dropout rates in different layers did not impact our recall much and actually increased our overfitting problem. Using both batch normailization and dropout regularization gave us the highest recall without overfitting and turned out to be our best model.
+We did see evidence of overfitting, so we continued to test various hyperparameters. Varying dropout rates in different layers did not impact our recall much and actually increased our overfitting problem. Using both batch normalization and dropout regularization gave us the highest recall without overfitting and turned out to be our best model.
 
 <img src="images/heart_nn_img.png?raw=true"/>
 <img src="images/heart_nn_img2.png?raw=true"/>
@@ -150,7 +150,7 @@ From our analysis we discovered three main insights. With the use of clustering 
 
 **Project overview:** On the heels of the COVID-19 vaccine approvals for Pfizer and BioNTech, our team utilized our machine learning technics to protect the populations hardest hit by outbreaks, senior living facilities. We wanted to understand driving factors of COVID mortality and how best to distribute vaccines to senior citizens. We combined nursing home staff stats, nursing home supply stats, county census stats, and county COVID policy data to find trends with COVID mortality rates. Our group turned to k-means clustering to group like senior living facilities based on the mortality rates of COVID-19 at the time of analysis. Our clustering analysis came out with three distinct groups, deemed high, medium, and low impact. 
 
-We observed that the medium impact group experienced the highest amount of staffing and supply shortages, but did not experience the highest mortality rates. Our data showed a higher percentage of the medium impact facilities were in areas implimenting shelter-in-place and mask policies versus the other two clusters. The variance in the remaining policies was neglegible between clusters. Conversly, the cluster with the highest mortality rates experienced similar shortages as the cluster with the lowest mortality rate. The highest mortaility cluster was a more densly populated cluster, had the largest population of 65+, and had the highest population of civilians without health insurance.
+We observed that the medium impact group experienced the highest amount of staffing and supply shortages but did not experience the highest mortality rates. Our data showed a higher percentage of the medium impact facilities were in areas implementing shelter-in-place and mask policies versus the other two clusters. The variance in the remaining policies was negligible between clusters. Conversely, the cluster with the highest mortality rates experienced similar shortages as the cluster with the lowest mortality rate. The highest mortality cluster was a more densely populated cluster, had the largest population of 65+, and had the highest population of civilians without health insurance.
 
 From our analysis, we recommended sending the vaccines first to the high impact cluster because of their high mortality rates and high at-risk population. Next would be the medium impact cluster due to their shortage of supplies. Lastly would be the low impact cluster because of their low mortality rate. Once a plan was developed, communicating that plan would be key to avoiding the same issues we saw with the H1N1 vaccine distribution.
 
@@ -174,7 +174,7 @@ From our analysis, we recommended sending the vaccines first to the high impact 
 
 **Project overview:** At the time of this project, the Pfizer and BioNTech vaccines were recently approved for distribution. Our team wanted to study the H1N1 vaccine data to ultimately gain insight into the demand for COVID-19 vaccines. Our dataset was provided by the National Center for Immunization and Respiratory Disease as a apart of a DrivenData competition. The data detailed patient demographics, behaviors, opinions, health stats, and whether or not they received the vaccine. 
 
-We built models using Naive Bayes, Decision Tree, and Random Forest algorithms. We created multiple variations of each using forward feature selection and oversampling, due to a classs imbalance in our outcome variable (80% did not receive a vaccine). We balanced the cost of manufacturing a vaccine that went unused versus the cost of a customer not receiving a vaccine. Because of our class imbalance, F1-score would be our measure of success over accuracy. Ultimately, the Naive Bayes model with oversampling and foward selection performed the best. Our other models experienced overfitting and/or low scores. 
+We built models using Naive Bayes, Decision Tree, and Random Forest algorithms. We created multiple variations of each using forward feature selection and oversampling, due to a class imbalance in our outcome variable (80% did not receive a vaccine). We balanced the cost of manufacturing a vaccine that went unused versus the cost of a customer not receiving a vaccine. Because of our class imbalance, F1-score would be our measure of success over accuracy. Ultimately, the Naive Bayes model with oversampling and forward selection performed the best. Our other models experienced overfitting and/or low scores. 
 
 <img src="images/h1n1_img.png?raw=true"/>
 
