@@ -50,7 +50,7 @@ To do this, we created a list of key words relating to medications (ex. drug, cr
 
 ***Specifics and files are not shared for confidentiality purposes.***
 
-**Project overview:** As a part of the UCI MSBA program, students are required to complete a six month long capstone project with a local OC company. I was fortunate enough to be paired with the Anaheim Ducks Hockey Club along with four other students. The purpose of the project was to answer three questions:
+**Project overview:** As a part of the UCI MSBA program, students are required to complete a six month long capstone project with a local Orange County company. I was fortunate enough to be paired with the Anaheim Ducks Hockey Club along with four other students. The purpose of the project was to answer three questions:
 
   • Who are Ducks customers?
 
@@ -78,7 +78,7 @@ With the use of recency frequency monetization (RFM) scoring, we were able to id
 
 **Project overview:** As a part of my Art of Forecasting course, we were asked to forecast the final score of Super Bowl LV. We were assigned teams where each member would contribute at least one forecast and the final result would be one ensembled score. 
 
-For my piece, I submitted three models to the group. My first model was based on success rate metrics (passing success rate, running success rate, etc.) as well as season averages for in-game statistics (runs, turnovers, etc.). I manually selected my variables based on p-values and stepwise linear regression. The model was run for Tampa Bay and Kansas City separately. The resulting score was 30 to 22 Tampa Bay. My second model was similar to my first model, however it only used success metrics and no in-game metrics. That model predicted 34 to 29 Tampa Bay.
+For my piece, I submitted three models to the group. My first model was based on success rate metrics (passing success rate, running success rate, etc.) as well as season averages for in-game statistics (rushing yards, turnovers, etc.). I manually selected my variables based on p-values and stepwise linear regression. The model was run for Tampa Bay and Kansas City separately. The resulting score was 30 to 22 Tampa Bay. My second model was similar to my first model, however it only used success metrics and no in-game metrics. That model predicted 34 to 29 Tampa Bay.
 
 My third model was deemed a "lazy-man's ensemble" where I collected historic predictions from football experts (ESPN hosts, Sportscenter analysts, etc.). I then calculated the MAPE by source (ESPN, Sportscenter, NFL, etc.) and used an ensemble calculation by MAPE. The outcome of this model was 31 to 26 Kansas City. 
 
@@ -148,7 +148,7 @@ From our analysis we discovered three main insights. With the use of clustering 
 
 ### Nursing Home COVID-19 Risk Assessment
 
-**Project overview:** On the heels of the COVID-19 vaccine approvals for Pfizer and BioNTech, our team utilized our machine learning technics to protect the populations hardest hit by outbreaks, senior living facilities. We wanted to understand driving factors of COVID mortality and how best to distribute vaccines to senior citizens. We combined nursing home staff stats, nursing home supply stats, county census stats, and county COVID policy data to find trends with COVID mortality rates. Our group turned to k-means clustering to group like senior living facilities based on the mortality rates of COVID-19 at the time of analysis. Our clustering analysis came out with three distinct groups, deemed high, medium, and low impact. 
+**Project overview:** On the heels of the COVID-19 vaccine approvals for Pfizer and BioNTech, our team utilized our machine learning techniques to protect the populations hardest hit by outbreaks, senior living facilities. We wanted to understand driving factors of COVID mortality and how best to distribute vaccines to senior citizens. We combined nursing home staff stats, nursing home supply stats, county census stats, and county COVID policy data to find trends with COVID mortality rates. Our group turned to k-means clustering to group like senior living facilities based on the mortality rates of COVID-19 at the time of analysis. Our clustering analysis came out with three distinct groups, deemed high, medium, and low impact. 
 
 We observed that the medium impact group experienced the highest amount of staffing and supply shortages but did not experience the highest mortality rates. Our data showed a higher percentage of the medium impact facilities were in areas implementing shelter-in-place and mask policies versus the other two clusters. The variance in the remaining policies was negligible between clusters. Conversely, the cluster with the highest mortality rates experienced similar shortages as the cluster with the lowest mortality rate. The highest mortality cluster was a more densely populated cluster, had the largest population of 65+, and had the highest population of civilians without health insurance.
 
